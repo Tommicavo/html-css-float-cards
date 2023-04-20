@@ -26,8 +26,53 @@ p{
     margin-bottom: 2.5rem;
 }
 
+img{
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: #57BBE8;
+}
+
 /* Utilities */
 .container{
     max-width: 1080px;
     margin: 0  auto;
 }
+
+.row{
+    margin-bottom: 2rem;
+}
+
+.card_info{
+    font-size: 12px;
+    padding-top: 1rem;
+    line-height: 25px;
+}
+
+/* Float */
+.row::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.card{
+    float: left;
+    width: calc(100% / 3 - 2rem);
+    background-color: black;
+    color: white;
+    margin: 0 1rem;
+}
+
+.card::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.card .card_img{
+    float: left;
+    margin-right: 1rem;
+}
+
