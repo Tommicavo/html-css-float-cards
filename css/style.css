@@ -35,6 +35,12 @@ a{
     color: #57BBE8;
 }
 
+
+.row_container{
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
 /* Utilities */
 .container{
     max-width: 1080px;
