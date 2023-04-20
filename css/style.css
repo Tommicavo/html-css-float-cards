@@ -1,5 +1,33 @@
+/* Css reset */
 *{
     border: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/* Generics */
+header{
+    text-align: center;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 3rem 0;
+    color: #E53170;
+}
+
+p{
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+}
+
+/* Utilities */
+.container{
+    max-width: 1080px;
+    margin: 0  auto;
 }
